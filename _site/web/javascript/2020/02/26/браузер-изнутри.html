@@ -51,6 +51,23 @@
 
 <p>За основу я возьму браузер <a href="https://github.com/LukeSmithxyz/surf">surf</a>, который для меня является хорошим и сравнительно простым объектом для изучения.</p>
 
+<p>Сборка и запуск нашего браузера описано в README, поэтому не буду описывать это здесь. Единственное отмечу, если вы используете Windows и решили собрать и запустить все это дело в WSL, то данная статья вам в помощь
+<a href="https://virtualizationreview.com/articles/2017/02/08/graphical-programs-on-windows-subsystem-on-linux.aspx">Running Graphical Programs on Windows Subsystem on Linux</a></p>
+
+<h3 id="1-функция-main-и-основные-параметры">1. Функция main и основные параметры</h3>
+
+<p>Начать путь изучение исходного кода я начну непосредственно с главной фунции main в <code class="highlighter-rouge">main.c</code>.</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span>
+<span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+	<span class="n">Arg</span> <span class="n">arg</span><span class="p">;</span>
+	<span class="n">Client</span> <span class="o">*</span><span class="n">c</span><span class="p">;</span>
+
+	<span class="n">memset</span><span class="p">(</span><span class="o">&amp;</span><span class="n">arg</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">arg</span><span class="p">));</span>
+
+	<span class="cm">/* command line args */</span>
+</code></pre></div></div>
 
   </div><a class="u-url" href="/web/javascript/2020/02/26/%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80-%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8.html" hidden></a>
 </article>

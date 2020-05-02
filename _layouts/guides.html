@@ -17,10 +17,10 @@ layout: default
   {%- endif -%}
 
   {{ content }}
-
-  {%- if site.categories.home.size > 0 -%}
+  
+  {%- if site.categories.guides.size > 0 -%}
   <ul class="post-list">
-    {%- for post in site.categories.home -%}
+    {%- for post in site.categories.guides -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="post-meta">{{ post.date | date: date_format }}</span>

@@ -1,25 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-03T03:17:08+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Shulhin D.</title><subtitle>free-thinker, coder, warhammer fan.</subtitle><entry><title type="html">Браузер изнутри</title><link href="http://localhost:4000/web/javascript/2020/02/26/%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80-%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8.html" rel="alternate" type="text/html" title="Браузер изнутри" /><published>2020-02-26T00:00:00+01:00</published><updated>2020-02-26T00:00:00+01:00</updated><id>http://localhost:4000/web/javascript/2020/02/26/%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80-%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8</id><content type="html" xml:base="http://localhost:4000/web/javascript/2020/02/26/%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80-%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8.html">&lt;p&gt;Многие знают такую известную и довольно содержательную статью 
-&lt;a href=&quot;https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/&quot;&gt;How Browsers Work: Behind the scenes of modern web browsers&lt;/a&gt;
-которая описывает базовые принципы работы современных браузеров. Также в ней приводятся примеры кода из WebKit для более наглядного пояснения механики.
-Для меня, если честно, отдельные куски кода как-то не приносят большей ясности, а до подробного разбова вебкита доходят немногие как мне кажется,
-поэтому в этой статье (или цикле статей) я попробую продемонстрировать те же принципы, но на более простых примерах.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-02T18:41:55+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Shulhin D.</title><subtitle>free-thinker, coder, warhammer fan.</subtitle><entry><title type="html">Oracle Cloud Infrastructure (OCI) Developer Associate exam2020 (1Z0-1084) guide (dz-s)</title><link href="http://localhost:4000/guides/2020/02/05/oci-developer-associate.html" rel="alternate" type="text/html" title="Oracle Cloud Infrastructure (OCI) Developer Associate exam2020 (1Z0-1084) guide (dz-s)" /><published>2020-02-05T00:00:00+01:00</published><updated>2020-02-05T00:00:00+01:00</updated><id>http://localhost:4000/guides/2020/02/05/oci-developer-associate</id><content type="html" xml:base="http://localhost:4000/guides/2020/02/05/oci-developer-associate.html">&lt;p&gt;This series of articles is aimed to describe my own path of preparation to OCI-* sertification exams. Despite Oracle provides set of videos to prepare, i decided to create these articles to combine all information by topics in a readable format (i don’t really like videos as a source for studying).&lt;/p&gt;
 
-&lt;p&gt;За основу я возьму браузер &lt;a href=&quot;https://github.com/LukeSmithxyz/surf&quot;&gt;surf&lt;/a&gt;, который для меня является хорошим и сравнительно простым объектом для изучения.&lt;/p&gt;
+&lt;h2 id=&quot;exam-topics&quot;&gt;Exam Topics&lt;/h2&gt;
 
-&lt;p&gt;Сборка и запуск нашего браузера описано в README, поэтому не буду описывать это здесь. Единственное отмечу, если вы используете Windows и решили собрать и запустить все это дело в WSL, то данная статья вам в помощь
-&lt;a href=&quot;https://virtualizationreview.com/articles/2017/02/08/graphical-programs-on-windows-subsystem-on-linux.aspx&quot;&gt;Running Graphical Programs on Windows Subsystem on Linux&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Cloud Native Fundamentals
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#describe-cloud-native-building-blocks&quot;&gt;Describe Cloud-Native Building Blocks&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Understand the Service Communication Patterns&lt;/li&gt;
+      &lt;li&gt;Role of Protocols and their benefits in
+ communication pattern&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Developing Cloud Native Applications
+    &lt;ol&gt;
+      &lt;li&gt;Developing Serverless Application with Oracle Functions&lt;/li&gt;
+      &lt;li&gt;Developing Microservices and applications for OKE&lt;/li&gt;
+      &lt;li&gt;Using Data in Cloud Native&lt;/li&gt;
+      &lt;li&gt;Using OCI APIs, SDKs and CLI&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Securing Cloud Native Applications
+    &lt;ol&gt;
+      &lt;li&gt;Security challenges with Cloud Native&lt;/li&gt;
+      &lt;li&gt;Defense-in-depth approach&lt;/li&gt;
+      &lt;li&gt;Configuration and Secret Management&lt;/li&gt;
+      &lt;li&gt;Using IAM for authn/authz&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Testing Cloud Native Applications
+    &lt;ol&gt;
+      &lt;li&gt;Challenges of testing in Cloud Native world&lt;/li&gt;
+      &lt;li&gt;Managing multiple environments (dev, test/stage, prod)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Operating Cloud Native Applications
+    &lt;ol&gt;
+      &lt;li&gt;Managing Infrastructure&lt;/li&gt;
+      &lt;li&gt;Building, deploying and releasing applications&lt;/li&gt;
+      &lt;li&gt;Monitoring, observability, and alerting&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h3 id=&quot;1-функция-main-и-основные-параметры&quot;&gt;1. Функция main и основные параметры&lt;/h3&gt;
+&lt;p&gt;So, let’s begin.&lt;/p&gt;
 
-&lt;p&gt;Начать путь изучение исходного кода я начну непосредственно с главной фунции main в &lt;code class=&quot;highlighter-rouge&quot;&gt;main.c&lt;/code&gt;.&lt;/p&gt;
+&lt;h1 id=&quot;describe-cloud-native-building-blocks&quot;&gt;Describe Cloud-Native Building Blocks&lt;/h1&gt;
 
-&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[])&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;Arg&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;Client&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;p&gt;It will be based on Oracle Official guide &lt;a href=&quot;https://learn.oracle.com/ols/learning-path/become-oci-developer-associate/35644/75248&quot;&gt;Become OCI Developer (Associate)&lt;/a&gt;, but i will try to broaden this information with additional sources to make this guide less specified for understanding&lt;/p&gt;
 
-	&lt;span class=&quot;n&quot;&gt;memset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+&lt;p&gt;So, in the beginning of Oracle’s course we are describing common pronciples of building and support distributed system.
+First of all we are introduced with two common approaches:&lt;/p&gt;
 
-	&lt;span class=&quot;cm&quot;&gt;/* command line args */&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="web" /><category term="browser" /><category term="javascript" /><category term="js" /><summary type="html">Многие знают такую известную и довольно содержательную статью How Browsers Work: Behind the scenes of modern web browsers которая описывает базовые принципы работы современных браузеров. Также в ней приводятся примеры кода из WebKit для более наглядного пояснения механики. Для меня, если честно, отдельные куски кода как-то не приносят большей ясности, а до подробного разбова вебкита доходят немногие как мне кажется, поэтому в этой статье (или цикле статей) я попробую продемонстрировать те же принципы, но на более простых примерах.</summary></entry></feed>
+&lt;p&gt;Pets :cat:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Treat you infrastructure like pets&lt;/li&gt;
+  &lt;li&gt;Give them names, IP adresses, care of them, keep them updated.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cattels :cow:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Everything is a number&lt;/li&gt;
+  &lt;li&gt;No attachment&lt;/li&gt;
+  &lt;li&gt;If something goes wrong, you replace it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here, i’m not quite sure what we can detalize, i would suggest to look at implementations of these strategies on practice at the end of 1st item.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Patterns for building cloud-native applications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cloud Native vs Traditional Arch:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stateful vs. Stateless&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;State stored with the compute instance&lt;/li&gt;
+  &lt;li&gt;Load balancers using sticky sessions&lt;/li&gt;
+  &lt;li&gt;What happens on reboot or cash&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Service orchestration vs. Service choreography&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Multiple services orchestrated to work as one, using sync communication&lt;/li&gt;
+  &lt;li&gt;Choreography uses eventing system&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Dealing with failures&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Minimize failures vs. expect and deal with them&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Quite common words, then we have CAD theorem pic:&lt;/p&gt;
+
+&lt;!-- .element height=&quot;50%&quot; width=&quot;50%&quot; --&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/CAD.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next slide is about Microservices / Containers + Functions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Microservices&lt;/strong&gt; – architechture&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Containers + Functions&lt;/strong&gt; – services, elements of our arch.&lt;/p&gt;</content><author><name></name></author><category term="certification" /><category term="oci" /><category term="exam" /><summary type="html">This series of articles is aimed to describe my own path of preparation to OCI-* sertification exams. Despite Oracle provides set of videos to prepare, i decided to create these articles to combine all information by topics in a readable format (i don’t really like videos as a source for studying).</summary></entry></feed>
